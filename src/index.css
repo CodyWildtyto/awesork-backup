@@ -1,3 +1,17 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+@layer base {
+    section {
+        @apply w-full h-96 py-20; 
+    }
+
+    h1 {
+        @apply text-5xl text-center;
+    }
+
+    h2 {
+        @apply text-4xl;
+    }
+}
