@@ -41,7 +41,7 @@ function Feature({
                 <div
                     className={`w-1/3 space-y-10 ${isWhiteText ? 'text-white' : ''}`}
                 >
-                    <h2 className="">{title}</h2>
+                    <h2>{title}</h2>
                     <p>{description}</p>
                 </div>
             </div>

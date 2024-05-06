@@ -9,7 +9,7 @@ function App() {
                 <div className="container">
                     <p className="text-gray-200">Awesork Present</p>
                     <img
-                        alt=""
+                        alt="logo-full"
                         className="w-96 mb-16"
                         src="/assets/logo-full.png"
                     />
@@ -18,9 +18,9 @@ function App() {
                     <p className="mt-6 text-xl">LINE討論工作還能隨記待辦事項</p>
                 </div>
             </section>
-            <section className="">
+            <section>
                 <div className="container">
-                    <h1 className="">更聰明的方法，做事更快速。</h1>
+                    <h1>更聰明的方法，做事更快速。</h1>
                     <div className="grid grid-cols-5 py-16">
                         <Shortcut
                             text="事項記錄"
@@ -79,7 +79,7 @@ function App() {
             />
             <section className="h-auto">
                 <div className="container">
-                    <h1 className="">一覽實用功能。</h1>
+                    <h1>一覽實用功能。</h1>
                     <div className="grid grid-cols-3 gap-32 py-16">
                         <Screw
                             description="簡單又靈活地開啟任務以及筆記，工作夥伴能夠顯而易見了解工作狀況。"
