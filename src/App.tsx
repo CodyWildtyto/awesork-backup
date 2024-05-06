@@ -1,29 +1,70 @@
 function App() {
     return (
         <>
-            <section className="bg-sky-500 text-white">
-                <div className="container max-w-none w-5/6">
-                    <div>Awesork Present</div>
-                    <p>noper</p>
-                    <p>工作，不為堆積的事焦額。</p>
-                    <p>LINE討論工作還能隨記待辦事項</p>
+            <section className="h-[32rem] bg-no-repeat [background-position-x:68%,calc(68%+80px)] [background-position-y:140px,190px] [background-size:280px,720px] [background-image:url('../public/assets/cover-example.png'),url('../public/assets/cover-background.png')] bg-cyan-500 text-white">
+                <div className="container">
+                    {/* <div className="container max-w-none w-5/6"> */}
+                    <p className="text-gray-200">Awesork Present</p>
+                    <img
+                        alt=""
+                        className="w-96 mb-16"
+                        src="/assets/logo-full.png"
+                    />
+                    <p className="text-5xl">工作，</p>
+                    <p className="text-5xl">不為堆積的事焦額。</p>
+                    <p className="mt-6 text-xl">LINE討論工作還能隨記待辦事項</p>
                 </div>
             </section>
             <section className="">
                 <div className="container">
                     <h1 className="">更聰明的方法，做事更快速。</h1>
-                    <div className="grid grid-cols-5 py-16 text-center">
-                        <span>事項記錄</span>
-                        <span>對話新增</span>
-                        <span>任務調派</span>
-                        <span>待辦提醒</span>
-                        <span>輕易使用</span>
+                    <div className="grid grid-cols-5 py-16">
+                        <div className="flex flex-col items-center justify-between space-y-6">
+                            <img
+                                alt=""
+                                className="h-16"
+                                src="/assets/shortcut-1.png"
+                            />
+                            <span className="">事項記錄</span>
+                        </div>
+                        <div className="flex flex-col items-center justify-between space-y-6">
+                            <img
+                                alt=""
+                                className="h-16"
+                                src="/assets/shortcut-2.png"
+                            />
+                            <span className="">對話新增</span>
+                        </div>
+                        <div className="flex flex-col items-center justify-between space-y-6">
+                            <img
+                                alt=""
+                                className="h-16"
+                                src="/assets/shortcut-3.png"
+                            />
+                            <span className="">任務調派</span>
+                        </div>
+                        <div className="flex flex-col items-center justify-between space-y-6">
+                            <img
+                                alt=""
+                                className="h-16"
+                                src="/assets/shortcut-4.png"
+                            />
+                            <span className="">待辦提醒</span>
+                        </div>
+                        <div className="flex flex-col items-center justify-between space-y-6">
+                            <img
+                                alt=""
+                                className="h-16"
+                                src="/assets/shortcut-5.png"
+                            />
+                            <span className="">輕易使用</span>
+                        </div>
                     </div>
                 </div>
             </section>
-            <section className="bg-gray-100">
+            <section className="bg-gray-100 bg-no-repeat [background-position-x:calc(50%+300px)] [background-position-y:70px] [background-size:300px] [background-image:url('../public/assets/feature-1.png')]">
                 <div className="container">
-                    <div className="w-1/3">
+                    <div className="w-1/3 space-y-10">
                         <h2 className="">事項記錄</h2>
                         <p>
                             隨時透過 noper
@@ -32,9 +73,9 @@ function App() {
                     </div>
                 </div>
             </section>
-            <section className="">
+            <section className="bg-no-repeat [background-position-x:calc(50%-300px)] [background-position-y:70px] [background-size:300px] [background-image:url('../public/assets/feature-1.png')]">
                 <div className="container flex flex-row-reverse">
-                    <div className="w-1/3">
+                    <div className="w-1/3 space-y-10">
                         <h2 className="">對話新增</h2>
                         <p>
                             現在只要在 LINE
@@ -44,9 +85,9 @@ function App() {
                     </div>
                 </div>
             </section>
-            <section className="bg-gray-100">
+            <section className="bg-gray-100 bg-no-repeat [background-position-x:calc(50%+300px)] [background-position-y:70px] [background-size:300px] [background-image:url('../public/assets/feature-3.png')]">
                 <div className="container">
-                    <div className="w-1/3">
+                    <div className="w-1/3 space-y-10">
                         <h2 className="">任務調派</h2>
                         <p>
                             被指派事項的參與者，可以即時收到 noper
@@ -55,9 +96,9 @@ function App() {
                     </div>
                 </div>
             </section>
-            <section className="">
+            <section className="bg-no-repeat [background-position-x:calc(50%-300px)] [background-position-y:70px] [background-size:300px] [background-image:url('../public/assets/feature-4.png')]">
                 <div className="container flex flex-row-reverse">
-                    <div className="w-1/3">
+                    <div className="w-1/3 space-y-10">
                         <h2 className="">待辦提醒</h2>
                         <p>
                             不再擔心忙碌中忽略的通知，只要設定提醒時間，每天
@@ -67,9 +108,9 @@ function App() {
                     </div>
                 </div>
             </section>
-            <section className="bg-green-300">
+            <section className="bg-green-400 bg-no-repeat [background-position-x:calc(50%+300px)] [background-position-y:120px] [background-size:500px] [background-image:url('../public/assets/feature-5.png')]">
                 <div className="container">
-                    <div className="w-1/3 text-white">
+                    <div className="w-1/3 space-y-10 text-white">
                         <h2 className="">輕易使用</h2>
                         <p>
                             好用的工具加上便利的情境，不僅可以在瀏覽器上使用，甚至在通訊軟體
@@ -100,7 +141,7 @@ function App() {
                     </div>
                 </div>
             </section>
-            <section className="bg-sky-300">
+            <section className="bg-cyan-400">
                 <div className="container">
                     <h1 className="text-white">選擇適合的方案。</h1>
                     <div className="grid grid-cols-5 gap-12 py-16 text-center">

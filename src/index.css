@@ -4,7 +4,7 @@
 
 @layer base {
     section {
-        @apply w-full h-96 py-20; 
+        @apply w-full h-96 py-20;
     }
 
     h1 {
