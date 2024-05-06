@@ -11,7 +11,7 @@ function App() {
                     <img
                         alt="logo-full"
                         className="w-96 mb-16"
-                        src="/assets/logo-full.png"
+                        src="./assets/logo-full.png"
                     />
                     <p className="text-5xl">工作，</p>
                     <p className="text-5xl">不為堆積的事焦額。</p>
@@ -24,23 +24,23 @@ function App() {
                     <div className="grid grid-cols-5 py-16">
                         <Shortcut
                             text="事項記錄"
-                            thumbnailUrl="/assets/shortcut-1.png"
+                            thumbnailUrl="./assets/shortcut-1.png"
                         />
                         <Shortcut
                             text="對話新增"
-                            thumbnailUrl="/assets/shortcut-2.png"
+                            thumbnailUrl="./assets/shortcut-2.png"
                         />
                         <Shortcut
                             text="任務調派"
-                            thumbnailUrl="/assets/shortcut-3.png"
+                            thumbnailUrl="./assets/shortcut-3.png"
                         />
                         <Shortcut
                             text="待辦提醒"
-                            thumbnailUrl="/assets/shortcut-4.png"
+                            thumbnailUrl="./assets/shortcut-4.png"
                         />
                         <Shortcut
                             text="輕易使用"
-                            thumbnailUrl="/assets/shortcut-5.png"
+                            thumbnailUrl="./assets/shortcut-5.png"
                         />
                     </div>
                 </div>
@@ -83,47 +83,47 @@ function App() {
                     <div className="grid grid-cols-3 gap-32 py-16">
                         <Screw
                             description="簡單又靈活地開啟任務以及筆記，工作夥伴能夠顯而易見了解工作狀況。"
-                            thumbnailUrl="/assets/screw-1.png"
+                            thumbnailUrl="./assets/screw-1.png"
                             title="事項"
                         />
                         <Screw
                             description="事項負責人能即時透過多項功能獲取告知，讓任務傳遞無縫接軌。"
-                            thumbnailUrl="/assets/screw-2.png"
+                            thumbnailUrl="./assets/screw-2.png"
                             title="參與者"
                         />
                         <Screw
                             description="將大量事項清楚分割不混淆在一起，幫助工作夥伴快速查閱內容。"
-                            thumbnailUrl="/assets/screw-3.png"
+                            thumbnailUrl="./assets/screw-3.png"
                             title="分類"
                         />
                         <Screw
                             description="為事項加上時間性，經由提醒功能幫助團隊確實掌握每天任務。"
-                            thumbnailUrl="/assets/screw-4.png"
+                            thumbnailUrl="./assets/screw-4.png"
                             title="目標日期"
                         />
                         <Screw
                             description="當有新增或變更事項等的行為發生時，關係的參與者可以即時收到通知。"
-                            thumbnailUrl="/assets/screw-5.png"
+                            thumbnailUrl="./assets/screw-5.png"
                             title="通知"
                         />
                         <Screw
                             description="每天依設定的時間發送事項的執行程度，再三確保不再有遺漏的任務。"
-                            thumbnailUrl="/assets/screw-6.png"
+                            thumbnailUrl="./assets/screw-6.png"
                             title="提醒"
                         />
                         <Screw
                             description="完美適應通訊軟體LINE，隨時能將重要事項記錄並快速查詢。"
-                            thumbnailUrl="/assets/screw-7.png"
+                            thumbnailUrl="./assets/screw-7.png"
                             title="配合討論"
                         />
                         <Screw
                             description="不需繁雜的開始過程，只要在 LINE 群組一個邀請動作就可以開始。"
-                            thumbnailUrl="/assets/screw-8.png"
+                            thumbnailUrl="./assets/screw-8.png"
                             title="免註冊"
                         />
                         <Screw
                             description="依照每個人的不同習慣，可以在 LINE 或者瀏覽器輕鬆使用。"
-                            thumbnailUrl="/assets/screw-9.png"
+                            thumbnailUrl="./assets/screw-9.png"
                             title="跨平台"
                         />
                     </div>
