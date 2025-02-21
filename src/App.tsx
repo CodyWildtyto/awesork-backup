@@ -131,7 +131,7 @@ function App() {
             </section>
             <section className="h-auto bg-cyan-400">
                 <div className="container text-center text-5xl">
-                    This service has not been available since December 2020!
+                    This service has been unavailable since 2021!
                 </div>
             </section>
             <section className="h-36">
