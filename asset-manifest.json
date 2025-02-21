@@ -1,21 +1,22 @@
 {
   "files": {
-    "main.css": "/awesork-backup/static/css/main.98cba37e.css",
-    "main.js": "/awesork-backup/static/js/main.ced8b20b.js",
+    "main.css": "/awesork-backup/static/css/main.cfd1e707.css",
+    "main.js": "/awesork-backup/static/js/main.f864e03c.js",
     "static/js/453.e2c304db.chunk.js": "/awesork-backup/static/js/453.e2c304db.chunk.js",
     "static/media/cover-example.png": "/awesork-backup/static/media/cover-example.545e9ceabcd8281da319.png",
     "static/media/cover-background.png": "/awesork-backup/static/media/cover-background.ca881eec0c3557c9b651.png",
     "static/media/feature-2.png": "/awesork-backup/static/media/feature-2.0808046778bd33bff58f.png",
     "static/media/feature-3.png": "/awesork-backup/static/media/feature-3.3c60220fdd8fc33976ec.png",
     "static/media/feature-1.png": "/awesork-backup/static/media/feature-1.4b0f8d7cde74e760874c.png",
+    "static/media/feature-5.png": "/awesork-backup/static/media/feature-5.8aee4ba78ee1eada764c.png",
     "static/media/feature-4.png": "/awesork-backup/static/media/feature-4.2557ea08d0897d9b53fe.png",
     "index.html": "/awesork-backup/index.html",
-    "main.98cba37e.css.map": "/awesork-backup/static/css/main.98cba37e.css.map",
-    "main.ced8b20b.js.map": "/awesork-backup/static/js/main.ced8b20b.js.map",
+    "main.cfd1e707.css.map": "/awesork-backup/static/css/main.cfd1e707.css.map",
+    "main.f864e03c.js.map": "/awesork-backup/static/js/main.f864e03c.js.map",
     "453.e2c304db.chunk.js.map": "/awesork-backup/static/js/453.e2c304db.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.98cba37e.css",
-    "static/js/main.ced8b20b.js"
+    "static/css/main.cfd1e707.css",
+    "static/js/main.f864e03c.js"
   ]
 }
